@@ -113,7 +113,7 @@ watch(selectedFiles, () => {
 });
 
 onMounted(() => {
-  map = L.map("map").setView([53.23879, 23.266865], 13);
+  map = L.map("map").setView([52.237, 21.017], 6);
 
   L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
     attribution: "© OpenStreetMap contributors",
